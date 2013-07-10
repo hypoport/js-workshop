@@ -37,7 +37,8 @@
       * Strict-Mode
    * Prototype
       * Prototype-Vererbung
-   * Geschichte der Sprache Javascript/Ecmascript          (5-10 min)
+   * Geschichte - oder Warum Dinge sind wie sie sind       (5-10 min)
+      * Sprache Javascript/Ecmascript 
       * Browser-Divergenz
 
 ### 12-13 Mittag
