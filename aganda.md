@@ -42,16 +42,16 @@
 
 ### 14:30 Uhr
 
-* Alle Beispiele und Übungen mit den Firefox-Dev-Tools
-* Ergänzend werden die Developer-Tools des Internet Explorers gezeigt
+   * Alle Beispiele und Übungen mit den Firefox-Dev-Tools
+   * Ergänzend werden die Developer-Tools des Internet Explorers gezeigt
 
-* jQuery UI Basis
-  * show(), hide(), fade(), usw.
-* jQuery UI Plugins:
-  * Modal-Dialog
-  * Drag'n'Drop
-  * MB Menu (Popup)
-  * Hover
+   * jQuery UI Basis
+      * show(), hide(), fade(), usw.
+   * jQuery UI Plugins:
+      * Modal-Dialog
+      * Drag'n'Drop
+      * MB Menu (Popup)
+      * Hover
 
 ### 15:45 Uhr
 
