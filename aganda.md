@@ -7,6 +7,10 @@
    * Begrüßung/Einführung/Roapmap
       * Kennenlernen
       * Erläuterungen zum allgemeinen Ablauf und Vorgehen
+         1. Kurz Theorie
+         2. Aufgabestellung
+         3. Lösen im Pair
+         4. Vorstellen der Lösung
       * Erkunden der Test-Rechner
 
 ### 09:30 Uhr
@@ -14,15 +18,25 @@
    * Alle Beispiele und Übungen sind als Projekte in IntelliJ Idea vorbereitet
 
    * Control Structures
+      * Die Basics: Conditionals, Loops, Functions
    * Scope
+      * Deklaration, Definition und Verwendung
+      * lokale und globale Variablen
    * Functions
+      * Named und Anonymous
+      * Closures
+      * 1st Class Citizens
+      * Callbacks
 
 ### 10:45 Uhr
 
    * Alle Beispiele und Übungen sind als Projekte in IntelliJ Idea vorbereitet
 
    * Patterns/Idiome
+      * Typsichers Vergleichen
+      * Strict-Mode
    * Prototype
+      * Prototype-Vererbung
    * Geschichte der Sprache Javascript/Ecmascript          (5-10 min)
       * Browser-Divergenz
 
@@ -35,10 +49,15 @@
    * jQuery Überblick                                      (10 min)
    * "Vanilla" DOM Manipulation                            (5 min)
       * d.h. ohne Hilfsmittel, nur mit Javascript Board-Mitteln
+   * Selektoren
+      * Auswählen von Elementen im DOM
    * DOM Manipulation mit jQuery
+      * z.B. attr(), append(), clone(), detach(), replace(), wrap(), usw.
    * Sprach-Erweiterungen
-      * z.B. each, click(), load(), timer(), usw.
+      * z.B. each(), timer(), map(), grep(), usw.
+      * Custom Callbacks
    * Event-Handling
+      * z.B. click(), load(), bind(), focus(), hover(), mouse*(), usw.
 
 ### 14:30 Uhr
 
@@ -46,7 +65,7 @@
    * Ergänzend werden die Developer-Tools des Internet Explorers gezeigt
 
    * jQuery UI Basis
-      * show(), hide(), fade(), usw.
+      * show(), hide(), fade(), delay(), animate(), usw.
    * jQuery UI Plugins:
       * Modal-Dialog
       * Drag'n'Drop
@@ -59,7 +78,7 @@
 
    * "Vanilla" XMLHttpRequest                              (5 min)
       * d.h. ohne Hilfsmittel, nur mit Javascript Board-Mitteln
-   * AJAX
+   * AJAX mit jQuery
       * HTML
       * JSON
       * XML
