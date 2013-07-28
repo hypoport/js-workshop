@@ -18,7 +18,7 @@
    * Alle Beispiele und Übungen sind als Projekte in IntelliJ Idea vorbereitet
 
    * Control Structures
-      * Die Basics: Conditionals, Loops, Functions
+      * Die Basics: Variablen, Objekte, Statements, Loops, Functions
    * Scope
       * Deklaration, Definition und Verwendung
       * lokale und globale Variablen
@@ -27,16 +27,20 @@
       * Closures
       * 1st Class Citizens
       * Callbacks
-
+   * JSON
+ 
 ### 10:45 Uhr
 
    * Alle Beispiele und Übungen sind als Projekte in IntelliJ Idea vorbereitet
-
+   
+   
+   * One Thread Model, Callbacks, Non-Blocking
    * Patterns/Idiome
       * Typsichers Vergleichen
       * Strict-Mode
    * Prototype
-      * Prototype-Vererbung
+      * Prototype-Vererbung (Wollen wir das überhaupt bringen? 
+   * 
    * Geschichte - oder Warum Dinge sind wie sie sind       (5-10 min)
       * Sprache Javascript/Ecmascript 
       * Browser-Divergenz
