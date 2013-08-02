@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+  var kreisel = {
+    farbe: 'rot',
+    radius: 10,
+    rotiere: function () {
+      console.log('rotation ....');
+    }
+  }
+
+  console.log("Kreisel OBJECT = " + kreisel);
+  console.log("Kreisel JSON = " + JSON.stringify(kreisel));
+
+</script>
+
+<script type="text/javascript">
+
+  var autoString = '{"auto":{"marke":"vw","modell":"golf","baujahr":1999,"km":123456.99}}';
+
+  var auto = JSON.parse(autoString);
+
+  console.log("Auto autoString = " + autoString);
+  console.log("Auto OBJECT = " + auto);
+
+  auto.metallicLack = true;
+  console.log("Pimped Auto JSON -> Object -> JSON = " + JSON.stringify(auto));
+
+</script>
+
+<script type="text/javascript">
+
+  // AUFGABE
+
+  var motorRaumString = '{"motorRaum":{"turboLader": true}}'
+  var kofferRaumString = '{"kofferRaum":{"anzahlErsatzraeder": 2, "sanikasten": false}}'
+
+  // Ergänze das
+</script>
+
+</body>
+</html>

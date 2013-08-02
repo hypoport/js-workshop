@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+  (function () {
+    console.log("Nummer 5 lebt!");
+  })();
+
+</script>
+
+<script type="text/javascript">
+
+  var neueWohnung = (function () {
+
+    var hausnummer = 23;
+
+    function baueWohnung() {
+      var wohnungsNummer = '100';
+      console.log('Das Haus ' + hausnummer + ' bekommt eine Wohnung ' + wohnungsNummer);
+    }
+    return baueWohnung;
+  })();
+
+  neueWohnung();
+
+</script>
+
+</body>
+</html>
