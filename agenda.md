@@ -30,7 +30,9 @@
       * Callbacks
    * JSON
    * Wo findet man Infos über die unterstützen Funktionen in den verschiedenen Browsern?
-   SelfHTML gut oder nicht? w3cschool etc
+      * SelfHTML gut oder nicht?
+      * w3cschool etc
+      * Mozilla Developer Network (MDN)
  
 ### 10:45 Uhr
 
@@ -74,6 +76,12 @@
 
    * Alle Beispiele und Übungen mit den Firefox-Dev-Tools (wirklich alle?)
    * Ergänzend werden die Developer-Tools des Internet Explorers gezeigt
+
+##### Zusammanhang
+   * Jquery -> Plugins
+   * Jquery -> JqueryUI -> UI-Plugins
+
+##### Übungen
 
    * jQuery UI Basis
       * jQuery UI Homepage
