@@ -18,6 +18,8 @@
    * Alle Beispiele und Übungen sind als Projekte in IntelliJ Idea vorbereitet 
    (vlt mit Unit-Tests, ob die Aufgabe geschaft ist oder nicht?)
 
+##### Chapter 1 - Basics
+
    * Control Structures
       * Die Basics: Variablen, Objekte, Statements, Loops, Functions
    * Scope
@@ -33,8 +35,8 @@
       * SelfHTML gut oder nicht?
       * w3cschool etc
       * Mozilla Developer Network (MDN)
- 
-### 10:45 Uhr
+
+##### Chapter 2 - Advanced
 
    * Alle Beispiele und Übungen sind als Projekte in IntelliJ Idea vorbereitet
    (vlt mit Unit-Tests, ob die Aufgabe geschaft ist oder nicht?)
