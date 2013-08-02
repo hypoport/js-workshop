@@ -39,10 +39,27 @@
 
   // AUFGABE
 
-  var motorRaumString = '{"motorRaum":{"turboLader": true}}'
+  var motorRaumString = '{"motorRaum":{"Motor":{"PS":500,"turboLader": true}}}'
   var kofferRaumString = '{"kofferRaum":{"anzahlErsatzraeder": 2, "sanikasten": false}}'
 
-  // Ergänze das
+  // Ergänze das Auto um Motor und Kofferraum und gib es als JSON String aus
+
+</script>
+
+<script type="text/javascript">
+
+  // Aufgabe BONUS: starte das Auto mit Zuendung und richtigen Code ...
+
+  // TODO: überdenken!
+
+  function zuendung(schluesselCode) {
+    return schluesselCode == 123;
+  }
+
+  var schluessel = undefined; // <<-- your task here ;-)
+
+  auto.start(schluessel);
+
 </script>
 
 </body>
