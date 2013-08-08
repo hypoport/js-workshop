@@ -68,16 +68,20 @@
       * Auswählen von Elementen im DOM
    * DOM Manipulation mit jQuery
       * z.B. attr(), append(), clone(), detach(), replace(), wrap(), usw.
+   * Event-Handling
+      * z.B. click(), load(), bind(), focus(), hover(), mouse*(), usw.
    * Sprach-Erweiterungen
       * z.B. each(), timer(), map(), grep(), usw.
       * Custom Callbacks
-   * Event-Handling
-      * z.B. click(), load(), bind(), focus(), hover(), mouse*(), usw.
 
 ### 14:30 Uhr
 
    * Alle Beispiele und Übungen mit den Firefox-Dev-Tools (wirklich alle?)
    * Ergänzend werden die Developer-Tools des Internet Explorers gezeigt
+
+##### Einleitung
+
+   * Wiederholung: Überblick jQuery (welche Thema)
 
 ##### Zusammanhang
    * Jquery -> Plugins
