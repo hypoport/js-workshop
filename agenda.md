@@ -98,6 +98,11 @@
       * MB Menu (Popup)
       * Hover
 
+##### TODO (wir)
+   * Wie sollen die Aufgaben geschnitten werden?
+   * Können wir die Plugins parallel von Teams erarbeiten lassen?
+   
+
 ### 15:45 Uhr
 
    * Alle Beispiele und Übungen mit den Chrome-Dev-Tools (wirklich alle?)
