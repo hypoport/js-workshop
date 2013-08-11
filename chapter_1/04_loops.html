@@ -1,50 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title></title>
+    <meta charset="utf-8">
+    <title></title>
 </head>
 <body>
 
 <script type="text/javascript">
 
-  // while () do ...
+    var i = 100;
+    while (i > 0) {
+        console.log(i--);
+    }
 
 </script>
 
 <script type="text/javascript">
 
-  // do ... while()
+    var i = 100;
+
+    do {
+        console.log(i--);
+    } while (i > 0);
 
 </script>
 
 <script type="text/javascript">
 
-  // for (var i; ;i++) ....
+    var einArray = [1, 2, 3, 4, "Hallo Welt", {}, 'String']
+
+    for (var i = 0; i < einArray.length; i++) {
+        console.log('Aus Array: ' + einArray[i]);
+    }
 
 </script>
 
 <script type="text/javascript">
 
-  // for (var i in) ...
+    var einObject = {
+        prop1: "Hallo",
+        prop2: "Welt"
+    }
+
+    // Achtung: Mit Vorsicht genießen!
+    for (var i in einObject) {
+        console.log('i = ' + i);
+        console.log('Aus EinObject:' + einObject[i]);
+    }
 
 </script>
 
 <script type="text/javascript">
 
-  // AUFGABE (Pflicht)
+    // Invertiere den folgenden String
 
-  var str = "Franz jagt im roten Taxi quer durch München."
+    var str = "Franz jagt im roten Taxi quer durch München."
 
-  // String-reverse
+
 
 </script>
 
 <script type="text/javascript">
 
-  // AUFGABE (bonus)
+    // AUFGABE (bonus)
 
-  // Bubblesort
+    // Bubblesort
 
 </script>
 

@@ -1,35 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title></title>
+    <meta charset="utf-8">
+    <title></title>
 </head>
 <body>
 
 <script type="text/javascript">
 
-  var foo = function(arg1, arg2) {
+    var foo = function (arg1, arg2) {
+        console.log('arg1: ' + arg1);
+        console.log('arg2: ' + arg2);
+    }
 
-  }
+    foo("Hallo", "Welt");
+    foo("Hallo");
+    foo();
 
-  function bar() {
-    console.log(arguments);
-  }
-
-  foo();
-  bar();
-
-</script>
-
-<script type="text/javascript">
-
-  // functions als argument übergeben
 
 </script>
 
 <script type="text/javascript">
 
-  //
+    var myFunction = function (aCallbackFunction) {
+        aCallbackFunction();
+    }
+
+    var callback = function () {
+        console.log('Ich bin eine Callback Function');
+    }
+
+    myFunction(callback);
+
+</script>
+
+<script type="text/javascript">
+
+    // Aufgabe: Schreibe eine Funktion, die eine Callback Funktion bekommt, diese zweimal aufruft und die beiden
+    // Rückgabewerte in einem Array zurückgibt
 
 </script>
 

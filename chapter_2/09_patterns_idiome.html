@@ -1,47 +1,71 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title></title>
+    <meta charset="utf-8">
+    <title></title>
 </head>
 <body>
 
 <script type="text/javascript">
 
-  // strict
+    // AUCHTUNG: console.log ist nicht supported in IE wenn der Dev Mode nicht geöffnet ist. Es gibt eine JS Exception!
+
+    // Deswegen: Kein console.log in Prod Code!
+
+</script>
+
+<script type="text/javascript">
+    "use strict";
+
+    // Jede Datei sollte mit einem "use strict"; beginnen um z.B. die Deklaration von Variablen zu erzwingen
+    // "Besseres" JavaScript wird damit erzwungen
+
 
 </script>
 
 <script type="text/javascript">
 
-  // === vs ==
+    // === vs ==
+
+    // == nimmt eine Typ Konvertierung vor dem Vergleich vor, d.h.
+
+    console.log('ergibt true:' + (1 == "1"));
+    console.log('ergibt true:' + (true == 1));
+    console.log('das ergibt aber false:' + (true == "true"));
+
+    // Deswegen: Eigentlich IMMER === nehmen: Das ist meistens dass, was man will!
+
+    console.log('ergibt false:' + (1 === "1"));
+    console.log('ergibt false:' + (true === 1));
+    console.log('auch false:' + (true === "true"));
+
 
 </script>
 
 <script type="text/javascript">
 
-  // typeOf foo === 'undefined'
+    // typeOf foo === 'undefined'
 
 </script>
 
 <script type="text/javascript">
 
-  // anonymous function with immediate call
-  (function () {
+    // anonymous function with immediate call
+    (function () {
 
-  })();
-
-</script>
-
-<script type="text/javascript">
-
-  // Variablen am Anfang des Scopes ==> d.h. "oben" in der function
+    })();
 
 </script>
 
 <script type="text/javascript">
 
-  // DON'T USE EVAL!!!
+    // Variablen am Anfang des Scopes ==> d.h. "oben" in der function
+
+</script>
+
+<script type="text/javascript">
+
+    // DON'T USE EVAL!!!
 
 </script>
 
