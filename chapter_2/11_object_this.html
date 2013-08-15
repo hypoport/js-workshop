@@ -10,22 +10,31 @@
     var Person = function (name, alter) {
         this.name = name;
         this.alter = alter;
+
+        this.print = function () {
+            console.log("Person: " + this.name + " alter: " + this.alter);
+        }
     }
 
     var andi = new Person("andi", 14);
+    andi.print();
     var martin = new Person("martin", 16);
+    martin.print();
 
 </script>
 
 <script type="text/javascript">
 
-    var anyFunction = function(){
+    var anyFunction = function () {
         this.newProperty = "Hallo Welt";
     };
 
     anyFunction();
     console.log(window.newProperty);
 </script>
+
+
+// Aufgabe: Schreibe zwei Funktion, die jeweils ein Auto mit marke und ps zurückgeben: Einmal mit einer Konstruktor Funktion und einmal mit einem Object Literal erstellt.
 
 </body>
 </html>
