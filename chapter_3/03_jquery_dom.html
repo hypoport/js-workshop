@@ -2,10 +2,17 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>DOM Manipulationen mit jQuery</title>
+  <title>03 - DOM Manipulationen mit jQuery</title>
   <link rel="stylesheet" href="jquery_dom.css"/>
+  <script type="text/javascript" src="jquery-1.10.2.js"></script>
 </head>
 <body>
+
+<div class="mitUmrandung1">
+  <div class="mitUmrandung2">
+    <h1>Volkswagen</h1>
+  </div>
+</div>
 
 <ul id="Volkswagen">
   <li class="vw-auto">Golf</li>
@@ -19,28 +26,59 @@
 </ul>
 
 <script type="text/javascript">
+  function ermittle_Element_per_ID(id) {
+    var jelem = $("#" + id); // beispiel $('#Volkswagen')
+    var element = jelem[0];
+    console.info("Name des Elements: " + element.nodeName);
+    console.info("Typ des Elements: " + element.nodeType);
+    console.info("Wert des Elements: " + element.nodeValue);
+    return jelem;
+  }
 
-  // AUFGABE:
-  // TODO
-  // 2 beispiele von uns
-  // 5 Aufgaben zum selber googlen -- unter anderem ":even" (aber nicht das Beispiel)
+  function erstelle_neues_Element(text) {
+    var jli = $("<li>");
+    jli.append(text); // beispiel: $("das ist text")
+    return jli;
+  }
+
+  function erzeuge_neues_KindElement(parentId, text) {
+    var parents = $("#" + parentId);
+    if (parents.length > 0) {
+      var jli = $("<li>");
+      jli.append(text);
+      jli.appendTo(parents[0]);
+    }
+    return parents;
+  }
 
 </script>
 
 
-
 <script type="text/javascript">
 
-  // DOM - AUFGABEN
+  function aufgabe_1() {
+    // (1) Färbe den Polo blau (CSS: 'color:blue')
+  }
 
-  // (1) Färbe den Polo blau (CSS: 'color:blue')
+  function aufgabe_2() {
+    // (2) Füge einen "Details" - Button beim Fox ein ("<button>Details</button>")
+  }
 
-  // (2) Füge einen "Details" - Button beim Fox ein ("<button>Details</button>")
+  function aufgabe_3() {
+    // (3) Setze die CSS-Klasse "mitMarke" auf das Element vom Jetta (die CSS Klasse ist bereits vorhanden)
+  }
 
-  // (3) Setze die CSS-Klasse "mitMarke" auf das Element vom Jetta (die CSS Klasse ist bereits vorhanden)
-  // dupliziere (klone) die Liste und füge sie "rechts" ein
-  // packe das frei schwebende LI in ein UL
-  // erzeuge eine neue OL List mit 3 Elementen außerhalb des DOMs und füge sie mit einem Befehl ein
+  function aufgabe_4() {
+    // (4) Klone die Liste und füge sie in das Element mit der ID="Kopie" ein.
+  }
+
+  function aufgabe_5() {
+    // (5) Ziehe die Überschrift aus den inneren 2 Rahmen heraus, so dass nur der Rahmen mit den roten Punkten sichtbar ist und der Rahmen mit der schwarzen Linie aus dem DOM verschwindet. (Siehe $.unwrap() )
+  }
+
+  function aufgabe_6() {
+    // (6) Erzeuge eine neue OL List mit 3 Elementen außerhalb des DOMs und füge sie mit einem Befehl ein
+  }
 
 </script>
 
