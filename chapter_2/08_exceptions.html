@@ -1,10 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title></title>
+    <meta charset="utf-8">
+    <title></title>
 </head>
 <body>
+
+<script type="text/javascript">
+    try {
+        var undefinedVariable;
+        undefinedVariable.test();
+
+    }
+    catch (e) {
+        console.log("An exception: " + e);
+    }
+</script>
+
+<script type="text/javascript">
+    try {
+
+        throw new Error("My Error");
+    }
+    catch (e) {
+        console.log("My Error: " + e);
+    }
+</script>
+
+
+//Aufgabe: Schreibe ein Funktion, die einen nicht leeren String erwartet und ansonsten eine Exception schmeisst
+
 
 </body>
 </html>
