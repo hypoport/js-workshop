@@ -1,10 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title></title>
+    <meta charset="utf-8">
+    <title></title>
 </head>
 <body>
+
+<script type="text/javascript">
+
+    var Auto = function () {
+        this.entity = "Dies ist ein Auto";
+
+        this.print = function () {
+            console.log(this.entity);
+        }
+    };
+
+    var golf = new Auto();
+    console.log("Golf constructor: " + golf.constructor);
+
+
+    var BMW = function (ps) {
+        this.ps = ps;
+    }
+
+    BMW.prototype = new Auto();
+
+    BMW.prototype.jedenObjectHatDieseProperty = "true";
+
+    var limo = new BMW(600);
+    limo.print();
+    console.log(limo.ps);
+    console.log(limo.jedenObjectHatDieseProperty);
+</script>
+
+//Aufgabe: Denke dir eine dreistufige (einfache) Vererbung aus, und implemtieren sie
+// Bewertung: Macht diese Art der Vererbung Sinn?
 
 </body>
 </html>
