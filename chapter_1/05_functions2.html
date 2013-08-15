@@ -1,33 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title></title>
+    <meta charset="utf-8">
+    <title></title>
 </head>
 <body>
 
 <script type="text/javascript">
 
-  (function () {
-    console.log("Nummer 5 lebt!");
-  })();
+    (function () {
+        var lokaleVariable = 5;
+        console.log("Nummer " + lokaleVariable + " lebt!");
+    })();
 
 </script>
 
 <script type="text/javascript">
 
-  var neueWohnung = (function () {
+    // Closures:
 
-    var hausnummer = 23;
+    var neueWohnung = function () {
 
-    function baueWohnung() {
-      var wohnungsNummer = '100';
-      console.log('Das Haus ' + hausnummer + ' bekommt eine Wohnung ' + wohnungsNummer);
-    }
-    return baueWohnung;
-  })();
+        var hausnummer = 23;
 
-  neueWohnung();
+        function baueWohnung() {
+            var wohnungsNummer = '100';
+            console.log('Das Haus ' + hausnummer + ' bekommt eine Wohnung ' + wohnungsNummer);
+        }
+
+        return baueWohnung;
+    };
+
+    var functionAsReturnValue = neueWohnung();
+    functionAsReturnValue();
+
+</script>
+
+<script type="text/javascript">
+    //Aufgabe: Schreibe eine Funktion mit einem Argument x, die ein Array von x Funktionen zurückgibt.
 
 </script>
 
