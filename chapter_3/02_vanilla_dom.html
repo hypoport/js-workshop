@@ -3,7 +3,6 @@
 <head>
   <meta charset="utf-8">
   <title>Vanilla DOM Manipulationen</title>
-  <script type="text/javascript" src="vanilla_dom_functions.js"></script>
 </head>
 <body>
 
@@ -17,6 +16,31 @@
 </ul>
 
 <script type="text/javascript">
+  function ermittle_Element_per_ID(id) {
+    var element = document.getElementById(id);
+    console.info("Name des Elements: " + element.nodeName);
+    console.info("Typ des Elements: " + element.nodeType);
+    console.info("Wert des Elements: " + element.nodeValue);
+    return element;
+  }
+
+  function erstelle_neues_Element(text) {
+    var element_li = document.createElement("li")
+    var element_text = document.createTextNode(text);
+    element_li.appendChild(element_text);
+    return element_li;
+  }
+
+  function erzeuge_neues_KindElement(parentId, text) {
+    var parent = ermittle_Element_per_ID(parentId);
+    if (parent) {
+      var child = erstelle_neues_Element(text);
+      parent.appendChild(child);
+    }
+  }
+</script>
+
+<script type="text/javascript">
 
 // Aufgaben:
 
@@ -24,7 +48,7 @@
 
 // (2) Hole alle Elemente mit der CSS Klasse 'vw-auto"' und gib ihnen die die "background-color:green" (CSS)
 
-// (3) Erzeuge ein neues Element und füe es hinter das letzte LI Element an
+// (3) Erzeuge ein neues Element und füge es hinter das letzte LI Element an
 
 // (4 Optional) Lösche das erste LI-Element der Liste
 
