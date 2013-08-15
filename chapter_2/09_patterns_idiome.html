@@ -45,6 +45,9 @@
 <script type="text/javascript">
 
     // typeOf foo === 'undefined'
+    // Prüfe auf undefined am besten durch:
+
+    typeof x === "undefined";
 
 </script>
 
@@ -60,6 +63,18 @@
 <script type="text/javascript">
 
     // Variablen am Anfang des Scopes ==> d.h. "oben" in der function
+    // Wegen des Scoping Problems:
+
+    var myFn = function (x) {
+        var y = x;
+        var a, b;
+        if (x) {
+            a = "Hallo";
+        }
+        else {
+            b = "Welt";
+        }
+    }
 
 </script>
 
