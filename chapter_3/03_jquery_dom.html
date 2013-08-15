@@ -2,27 +2,20 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title></title>
-  <style type="text/css">
-    .foobar {
-      color: red;
-    }
-    .foobar:before {
-      img: url(#);
-    }
-  </style>
+  <title>DOM Manipulationen mit jQuery</title>
+  <link rel="stylesheet" href="jquery_dom.css"/>
 </head>
 <body>
 
-<ul>
-  <!-- Einfache Liste -->
-  <li id="">A</li>
-  <li class="">B</li>
-  <li class="">
-    <h1>Überschrift 1</h1>
-    <p>lorem ipsum</p>
-    ...
-  </li>
+<ul id="Volkswagen">
+  <li class="vw-auto">Golf</li>
+  <li class="vw-auto">Fox</li>
+  <li class="vw-auto">Jetta</li>
+  <li class="vw-auto">Lupo</li>
+  <li class="vw-auto">Passat</li>
+  <li class="vw-auto">Phaeton</li>
+  <li class="vw-auto">Polo</li>
+  <li id="neuesModel" class="vw-auto"></li>
 </ul>
 
 <script type="text/javascript">
@@ -38,10 +31,13 @@
 
 <script type="text/javascript">
 
-  // DOM - AUFGABE
-  // Färbe erstes LI blau
-  // Füge Button in zweites LI ein
-  // Setze KLASSE 'foobar' auf das dritte ELEMENT (anmerkung: die Klasse ist vorbereitet)
+  // DOM - AUFGABEN
+
+  // (1) Färbe den Polo blau (CSS: 'color:blue')
+
+  // (2) Füge einen "Details" - Button beim Fox ein ("<button>Details</button>")
+
+  // (3) Setze die CSS-Klasse "mitMarke" auf das Element vom Jetta (die CSS Klasse ist bereits vorhanden)
   // dupliziere (klone) die Liste und füge sie "rechts" ein
   // packe das frei schwebende LI in ein UL
   // erzeuge eine neue OL List mit 3 Elementen außerhalb des DOMs und füge sie mit einem Befehl ein
