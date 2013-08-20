@@ -3,27 +3,74 @@
 <head>
   <meta charset="utf-8">
   <title>04 - jQuery und Events</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="css/jquery_events.css"/>
+  <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
 </head>
 <body>
 
-<ul>
-  <!-- Einfache Liste -->
-  <li id="">
-    <button>click me</button>
+<div>
+  <h1 class="modal-header">Umfrage</h1>
+</div>
+
+<ul id="Volkswagen">
+  <li class="vw-auto well">
+    <h4> Golf </h4>
+
+    <div>
+      <button id="btnSonderAusstattung" class="btn-sm btn-info">Details</button>
+      <div id="sonderAusstattung">
+        <span class="glyphicon glyphicon-check"></span> Klima-Automatic<br>
+        <span class="glyphicon glyphicon-unchecked"></span> Navigationssystem<br>
+        <span class="glyphicon glyphicon-unchecked"></span> Metalic-Lackierung<br>
+        <span class="glyphicon glyphicon-unchecked"></span> Anhängerkupplung<br>
+      </div>
+    </div>
   </li>
-  <li class="">B</li>
-  <li class="">
-    <h1>Überschrift 1</h1>
-    <p>lorem ipsum</p>
-    ...
-  </li>
+  <!--
+    <li class="vw-auto well">
+      Fox
+      (<span id="countFox">0</span>)
+      <button id="btnFox" class="btn-xs btn-default">+1</button>
+    </li>
+  -->
 </ul>
 
 <script type="text/javascript">
+  (function () {
+    var counter = 0;
+    $("#btnGolfPlus").click(function (event) {
+      $("#countGolf").text("" + (++counter));
+    });
+    $("#btnGolfMinus").click(function (event) {
+      $("#countGolf").text("" + (--counter));
+    });
+    $("#btnSonderAusstattung").on('click', function (event) {
+      $('#sonderAusstattung').toggle('slow');
+    });
+  })();
 
-  // AUFGABE:
-  // TODO
-  // füge einen Klick-Handler an den Button
+  (function () {
+    function checkUnCheckEventHandler(event) {
+      if ($(event.target).hasClass("glyphicon-check")) {
+        $(event.target).removeClass("glyphicon-check");
+        $(event.target).addClass("glyphicon-unchecked");
+      } else {
+        $(event.target).removeClass("glyphicon-unchecked");
+        $(event.target).addClass("glyphicon-check");
+      }
+    }
+    $(".glyphicon").click(checkUnCheckEventHandler);
+  })();
+</script>
+
+<script type="text/javascript">
+
+  function aufgabe_1() {
+    // (1) Füge Click-Handler auf den Button für den "Fox"
+  }
+
+  // click(), load(), bind(), focus(), hover(), mouse*(), usw.
   // live-update (text-input -> feld ausgabe)
   // domReady() - Beispiel: Selektiere mit jQuery ... logge die Anzahl der Elemente --> vor DOMREADY - nach DOMREADY
   // (optional) Validation: email live validation

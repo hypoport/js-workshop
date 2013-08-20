@@ -1,0 +1,13 @@
+button, input[type="button"] {
+  font-family:"Courier New",Courier,Monospaced;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
