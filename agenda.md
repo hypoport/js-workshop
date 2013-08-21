@@ -92,6 +92,7 @@
    * jQuery UI Basis
       * jQuery UI Homepage
       * Effects: show(), hide(), fade(), delay(), animate(), usw.
+      * Wie man Plugins einbindet
    * jQuery UI Plugins:
       * Modal-Dialog
       * Drag'n'Drop
