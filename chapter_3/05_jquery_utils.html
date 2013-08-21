@@ -3,20 +3,41 @@
 <head>
   <meta charset="utf-8">
   <title>05 jQuery Utils</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
 </head>
 <body>
 
+<div>
+  <h1 class="modal-header">Farben</h1>
+</div>
 
+<div id="farbBalken"></div>
+
+<script type="text/javascript">
+  var farben = ['red', 'green', 'blue', 'silver', 'black', 'yellow']
+  $(farben).each(function (index, farbe) {
+    var balken = $("<div>");
+    balken.css('background-color', farbe);
+    balken.css('text-align', 'center');
+    balken.text(index + " - " + farbe);
+    $("#farbBalken").append(balken);
+  });
+</script>
 
 <script type="text/javascript">
 
-  // AUFGABE:
-  // map()
-  // each()
-  // custom callbacks
-  // (optional) delay()
 </script>
 
+<script type="text/javascript">
+  function aufgabe_1() {
+    // map()
+    // each()
+    // custom callbacks
+    // (optional) delay()
+
+  }
+</script>
 
 </body>
 </html>
