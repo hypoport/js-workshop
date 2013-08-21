@@ -18,6 +18,7 @@
   var farben = ['red', 'green', 'blue', 'silver', 'black', 'yellow']
   $(farben).each(function (index, farbe) {
     var balken = $("<div>");
+    balken.addClass('balken');
     balken.css('background-color', farbe);
     balken.css('text-align', 'center');
     balken.text(index + " - " + farbe);
@@ -26,16 +27,21 @@
 </script>
 
 <script type="text/javascript">
-
+  $('.balken').map(function (index, elem) {
+    var stars = "********************************************";
+    var textNode = document.createTextNode(" " + stars.substr(0, index + 1));
+    elem.appendChild(textNode);
+  })
 </script>
 
 <script type="text/javascript">
-  function aufgabe_1() {
-    // map()
-    // each()
-    // custom callbacks
-    // (optional) delay()
+  // custom callbacks
+  // (optional) delay()
 
+  function aufgabe_1() {
+    // Filtere alle Farb-Balken mit grep()
+    // Dabei sollen alle Farben, die ein 'e' enthalten keinen Hintergrund haben.
+    // Mit anderen Worten, enthält die Farbe ein 'e' wird die Background-Color wieder gelöscht
   }
 </script>
 
