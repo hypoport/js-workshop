@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>02 - Native Ajax Request</title>
+</head>
+<body>
+
+<script type="text/javascript">
+    var xhr = new XMLHttpRequest();
+
+    xhr.open('get', '/ajax-get-url', false);
+
+    xhr.send(null);
+
+    var response = xhr.responseText;
+
+    console.log(response);
+
+</script>
+</body>
+</html>
+
+
