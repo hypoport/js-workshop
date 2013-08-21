@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css"/>
   <link rel="stylesheet" href="css/jquery_events.css"/>
   <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+  <script type="text/javascript" src="js/golf_checklist_handler.js"></script>
 </head>
 <body>
 
@@ -24,56 +25,26 @@
         <span class="glyphicon glyphicon-unchecked"></span> Navigationssystem<br>
         <span class="glyphicon glyphicon-unchecked"></span> Metalic-Lackierung<br>
         <span class="glyphicon glyphicon-unchecked"></span> Anhängerkupplung<br>
+        <span class="glyphicon glyphicon-unchecked"></span> <input type="text" placeholder="Sonderwunsch" name="sonderwunsch" maxlength="25" size="40"/> <span class="anzahlZeichen">25</span> <br>
       </div>
     </div>
   </li>
-  <!--
-    <li class="vw-auto well">
-      Fox
-      (<span id="countFox">0</span>)
-      <button id="btnFox" class="btn-xs btn-default">+1</button>
-    </li>
-  -->
 </ul>
-
-<script type="text/javascript">
-  (function () {
-    var counter = 0;
-    $("#btnGolfPlus").click(function (event) {
-      $("#countGolf").text("" + (++counter));
-    });
-    $("#btnGolfMinus").click(function (event) {
-      $("#countGolf").text("" + (--counter));
-    });
-    $("#btnSonderAusstattung").on('click', function (event) {
-      $('#sonderAusstattung').toggle('slow');
-    });
-  })();
-
-  (function () {
-    function checkUnCheckEventHandler(event) {
-      if ($(event.target).hasClass("glyphicon-check")) {
-        $(event.target).removeClass("glyphicon-check");
-        $(event.target).addClass("glyphicon-unchecked");
-      } else {
-        $(event.target).removeClass("glyphicon-unchecked");
-        $(event.target).addClass("glyphicon-check");
-      }
-    }
-    $(".glyphicon").click(checkUnCheckEventHandler);
-  })();
-</script>
 
 <script type="text/javascript">
 
   function aufgabe_1() {
-    // (1) Füge Click-Handler auf den Button für den "Fox"
+    // Der Details-Button soll einen Tooltip bekommen.
+    // (1.1) Erstelle eine zweite JS Datei fuer einen HoverHandler
+    // (1.2) Nutze die ready() function um einen mouse hover handler an den Details-Button zu binden
   }
 
-  // click(), load(), bind(), focus(), hover(), mouse*(), usw.
-  // live-update (text-input -> feld ausgabe)
-  // domReady() - Beispiel: Selektiere mit jQuery ... logge die Anzahl der Elemente --> vor DOMREADY - nach DOMREADY
-  // (optional) Validation: email live validation
+  function aufgabe_2() {
+    // Bei Sonderwünschen sind maximal 25 Zeichen erlaubt
+    // Schreibe eien Eventhandler, der bei jeden Tastendruck in das Eingabefeld
+    // die Anzahl der Zeichen zählt und die noch verbleibende Anzahl von Zeichen
+    // rechts ausgibt
+  }
 
 </script>
 
