@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>05 jQuery Utils</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="css/jquery_events.css"/>
+  <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+  <script type="text/javascript" src="js/golf_checklist_handler.js"></script>
+  <script type="text/javascript" src="js/publish_subscribe.js"></script>
+</head>
+<body>
+
+<div>
+  <h1 class="modal-header">Umfrage</h1>
+</div>
+
+<ul id="Volkswagen">
+  <li class="vw-auto well">
+    <h4> Sonderausstattung für Ihr Fahrzeug </h4>
+
+    <div>
+      <div id="sonderAusstattung">
+        <span class="glyphicon glyphicon-check">Klima-Automatic</span><br>
+        <span class="glyphicon glyphicon-unchecked">Navigationssystem</span><br>
+        <span class="glyphicon glyphicon-unchecked">Metalic-Lackierung</span><br>
+        <span class="glyphicon glyphicon-unchecked">Anhängerkupplung</span><br>
+        <span class="glyphicon glyphicon-unchecked">Individueller Sonderwunsch</span><br>
+      </div>
+    </div>
+  </li>
+</ul>
+
+<div class="well">
+  <h4>Ihr Wunsch:</h4>
+  <span id="ausgabe"></span>
+</div>
+
+<script type="text/javascript">
+  $(".glyphicon").click(function (event) {
+    var ausstattung = $(event.target).text();
+    $.Topic("checkbox").publish(ausstattung);
+  });
+
+  $.Topic("checkbox").subscribe(function (value) {
+    $("#ausgabe").text(value);
+  });
+</script>
+
+<script type="text/javascript">
+  function aufgabe_1() {
+    // Erstelle einen zweiten Topic/Channel, in dem die vorherigen Wünsche
+    // ge-published werden. Die vorherigen Wünschen sollen
+    // auch wieder in einem 'span' ausgegeben werden.
+  }
+</script>
+
+</body>
+</html>
