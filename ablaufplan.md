@@ -15,18 +15,20 @@
        * Es gibt keine Musterlösung
        * Der Weg ist entscheidend ;-)
     * Erkunden der Test-Rechner & Vorstellen der Setups
-
-### 09:30 Uhr
-
-   * Alle Beispiele und Übungen sind als Projekte in IntelliJ Idea vorbereitet 
+       * kurze Idea-Einführung
+       * NodeJS starten (command-file)
 
 ##### Chapter 1 - Basics
 
-   * Aufgaben aus Chapter 1
+-- 09:30 --
 
--- 5 min vor Ende --
+   * Aufgaben aus Chapter 1.1 bis 1.1
+
+   -- Nach der ersten Übung --
 
    * Hinweise aus [chapter_1/links.md]
+
+   * Aufgaben aus Chapter 1.2 bi 1.4
 
 ##### Chapter 2 - Advanced
 
