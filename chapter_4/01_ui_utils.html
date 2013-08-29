@@ -14,30 +14,46 @@
 </div>
 
 
-show(), hide(), fade(), delay(), animate(), usw.
+<!--show(), hide(), fade(), delay(), animate(), usw.-->
 
 <div>
   <span class="col-lg-1"></span>
   <button id="btnShow" class="btn btn-info mousecursor">show()</button>
-  <span class="col-lg-1"></span>
-  <img src="img/hypoport_logo.png" alt="logo">
-  <span>Show() blendet versteckte Elemente ein.</span>
-</div>
-
-<div>
-  <span class="col-lg-1"></span>
   <button id="btnHide" class="btn btn-info mousecursor">hide()</button>
   <span class="col-lg-1"></span>
-  <img src="img/hypoport_logo.png" alt="logo">
-  <span>Show() blendet versteckte Elemente ein.</span>
+  <img id="img_1" src="img/hypoport_logo.png" alt="logo">
+  <span>
+    Die Funktionen <i>show() / hide()</i> blenden Elemente ein/aus.
+    Dabei wird das Layout neu berechnet, weil die CSS-Eigenschaft 'display:none' verwendet wird.
+  </span>
+  <script type="text/javascript">
+    $("#btnShow").click(function(event){
+      $("#img_1").show();
+    });
+    $("#btnHide").click(function(event){
+      $("#img_1").hide();
+    });
+  </script>
 </div>
 
 <div>
   <span class="col-lg-1"></span>
-  <button id="btnFade" class="btn btn-info mousecursor">fade()</button>
+  <button id="btnFadeIn" class="btn btn-info mousecursor">fade()</button>
+  <button id="btnFadeOut" class="btn btn-info mousecursor">fade()</button>
   <span class="col-lg-1"></span>
-  <img src="img/hypoport_logo.png" alt="logo">
-  <span>Show() blendet versteckte Elemente ein.</span>
+  <img id="img_2" src="img/hypoport_logo.png" alt="logo">
+  <script type="text/javascript">
+    $("#btnFadeIn").click(function(event){
+      $("#img_2").fadeIn('slow');
+    });
+    $("#btnFadeOut").click(function(event){
+      $("#img_2").fadeOut('slow');
+    });
+  </script>
+  <span>
+    Die Funktionen <i>fadeIn() / fadeOut()</i> blenden Elemente ein/aus.
+    Dabei wird das Layout neu berechnet, weil die CSS-Eigenschaft 'display:none' verwendet wird.
+  </span>
 </div>
 
 </body>
