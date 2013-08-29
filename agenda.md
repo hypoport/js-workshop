@@ -4,7 +4,7 @@
 
 ### 09:00 Uhr
 
-   * Begrüßung/Einführung/Roapmap
+   * Begrüßung/Einführung/Roadmap
       * Kennenlernen
       * Erläuterungen zum allgemeinen Ablauf und Vorgehen
          1. Kurz Theorie
@@ -40,14 +40,14 @@
 
    * Alle Beispiele und Übungen sind als Projekte in IntelliJ Idea vorbereitet
    (vlt mit Unit-Tests, ob die Aufgabe geschaft ist oder nicht?)
-   
+
    * One Thread Model, Callbacks, Non-Blocking
    * Patterns/Idiome
       * Typsichers Vergleichen
       * Strict-Mode
    * Objekte: Konstruktoren 
    * Prototype
-      * Prototype-Vererbung (Wollen wir das überhaupt bringen? 
+      * Prototype-Vererbung (Wollen wir das überhaupt bringen?
    * Geschichte - oder Warum Dinge sind wie sie sind       (5-10 min)
       * Sprache Javascript/Ecmascript 
       * Browser-Divergenz, Motivation für jQuery
