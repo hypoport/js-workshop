@@ -12,14 +12,5 @@
 
 * API: api.jquery.com (Zeigen und erklären)
 
-* Setup erklären
-
-#DOM
-
-
-* DOM: Eine sprachenunabängiger Standard zum Zugriff/Manipualtion vom XML und HTML Dokumenten. Wir betrachten hier nur die JS Welt (keine Java Impl etc.)
-
-* In der Praxis ist der Standart irrelavant: Nur was die Browser implementiert, zählt.
-
-* Es gibt den DOM, der beim window.document (also bei document) beginnt. Es gibt aber auch DOM Elemente, die ausserhalb von diesem Baum liegen.
+* Einbindung in eigene Projekte
 
