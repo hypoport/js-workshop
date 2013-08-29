@@ -47,6 +47,9 @@
 -- 10 min später --
 
    * Aufgaben aus Chapter 3
+
+-- Vanilla DOM --
+
 -- Pause --
    * Aufgaben aus Chapter 3
    * Aufgaben aus Chapter 4
