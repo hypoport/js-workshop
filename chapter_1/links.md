@@ -1,17 +1,17 @@
 
 ## Links
 
-  Allgemeine Informationen:
+### Allgemeine Informationen:
 
  * https://developer.mozilla.org/de/
 
  * http://www.crockford.com/
 
- Hilfe bei speziellen Fragen:
+### Hilfe bei speziellen Fragen:
 
  * StackOverflow
 
- Cross Browser Compatiblity:
+### Cross Browser Compatiblity:
 
  * caniuse.com
 
