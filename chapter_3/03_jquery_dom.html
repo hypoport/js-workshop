@@ -28,6 +28,9 @@
 <script type="text/javascript">
   function ermittle_Element_per_ID(id) {
     var jelem = $("#" + id); // beispiel $('#Volkswagen')
+    // genau dasselbe wie:
+    // var jelem = jQuery("#" + id);
+
     var element = jelem[0];
     console.info("Name des Elements: " + element.nodeName);
     console.info("Typ des Elements: " + element.nodeType);
