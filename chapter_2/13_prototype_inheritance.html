@@ -18,6 +18,7 @@
 
     var golf = new Auto();
     console.log("Golf constructor: " + golf.constructor);
+    console.log("------------------------------------------------------------");
 
 
     var BMW = function (ps) {
@@ -26,12 +27,12 @@
 
     BMW.prototype = new Auto();
 
-    BMW.prototype.jedenObjectHatDieseProperty = "true";
+    BMW.prototype.jedesObjectHatDieseProperty = "true";
 
     var limo = new BMW(600);
     limo.print();
-    console.log(limo.ps);
-    console.log(limo.jedenObjectHatDieseProperty);
+    console.log("limo.ps=" + limo.ps);
+    console.log("limo.jedesObjectHatDieseProperty=" + limo.jedesObjectHatDieseProperty);
 </script>
 
 //Aufgabe: Denke dir eine dreistufige (einfache) Vererbung aus, und implemtieren sie
