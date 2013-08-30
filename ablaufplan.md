@@ -60,3 +60,5 @@
    * Einführung, siehe [chapter_5/01_einführung.md]
 
    * Aufgaben aus Chapter_5
+
+   * Meister-Aufgabe
