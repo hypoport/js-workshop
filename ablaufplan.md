@@ -32,6 +32,8 @@
 
 ##### Chapter 2 - Advanced
 
+   * Themenblöcke einzeln ... und Aufgabe im Anschluss
+
    * Aufgaben aus Chapter 2
 
 -- 11:50 --
