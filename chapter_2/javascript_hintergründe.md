@@ -18,6 +18,7 @@
 
 - IE ist mit Abstand die schlechteste Implementierung -> ab IE 9 aktuell ganz ok
 
+- Evergreen-Browser: Chrome & Firefox
 
 
 
