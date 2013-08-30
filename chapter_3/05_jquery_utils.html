@@ -27,11 +27,10 @@
 </script>
 
 <script type="text/javascript">
-  $('.balken').map(function (index) {
-    var stars = "********************************************";
-    var textNode = document.createTextNode(" " + stars.substr(0, index + 1));
-    this.appendChild(textNode);
+  var result = $('.balken').map(function () {
+    return $(this).text();
   })
+  console.log("result=" + result);
 </script>
 
 <script type="text/javascript">
