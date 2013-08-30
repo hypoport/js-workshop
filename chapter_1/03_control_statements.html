@@ -41,10 +41,13 @@
 
 <script type="text/javascript">
 
-    // Aufgabe: Es gibt ein Input Element: Gib das erste oder zweite Element des innerElement  aus oder gar nichts,
-    // je nachdem ob valid true ist bzw. logFirstElement
+    // Aufgabe: Es gibt ein Input Element: Gib gar nicht aus, wenn valid false ist. Falls valid true ist, dann gib das firstElement oder secondElement
+    // vom innerElement aus, je nachdem ob logFirstElement true ist.
 
+    // Bsp 1: Hier passiert gar nichts.
     var inputExample1 = {valid: false}
+
+    // Bsp 2: Hier wird "Hallo" ausgegeben
     var inputExample2 = {valid: true, innerElement: {logFirstElement: true, firstElement: "Hallo", secondElement: "Welt"}  }
 
 
