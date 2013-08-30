@@ -4,11 +4,54 @@
   <meta charset="utf-8">
   <title>01 - jQuery Visual Utils</title>
   <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="css/sunny/jquery-ui-1.10.3.custom.min.css"/>
   <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+  <script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script>
 </head>
 <body>
 
-<h1>tbd</h1>
+<h1>Modal-Dialog</h1>
+
+<script type="text/javascript">
+  // Installation
+  // ----------------------------
+  // http://jqueryui.com/download/
+</script>
+
+
+
+<div style="display: none"><div id="dialog-message" title="Download complete">
+  <p>
+    <span class="ui-icon ui-icon-circle-check" style="float: left; margin: 0 7px 50px 0;"></span>
+    Your files have downloaded successfully into the My Downloads folder.
+  </p>
+  <p>
+    Currently using <b>36% of your storage space</b>.
+  </p>
+  <input type="text"/>
+</div>
+
+
+
+</div>
+
+<p>Sed vel diam id libero <a href="http://example.com">rutrum convallis</a>. Donec aliquet leo vel magna. Phasellus rhoncus faucibus ante. Etiam bibendum, enim faucibus aliquet rhoncus, arcu felis ultricies neque, sit amet auctor elit eros a lectus.</p>
+
+<button id="test">Show Me :-)</button>
+
+<script>
+  $("#test").click(function(event) {
+    $( "#dialog-message" ).dialog({
+      modal: true,
+      buttons: {
+        Ok: function() {
+          $( this ).dialog( "close" );
+        }
+      }
+    });
+  });
+</script>
+
 
 </body>
 </html>
