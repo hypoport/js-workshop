@@ -1,6 +1,7 @@
 var express = require('express');
 var app = express();
 
+app.use(express.bodyParser());
 app.use(express.static(__dirname));
 
 app.listen(8080);
@@ -19,5 +20,14 @@ app.put('/jquery-json-url', function (req, res) {
 
 app.put('/jquery-json-url', function (req, res) {
   res.send({hallo: "welt"});
+});
+
+app.put('/exist-user', function (req, res) {
+  if (req.body.user === "Andi" || req.body.user === "Martin") {
+    res.send(409);
+  }
+  else {
+    res.send(200);
+  }
 });
 console.log('Started server at port 8080');
