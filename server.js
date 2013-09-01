@@ -1,4 +1,5 @@
 var express = require('express');
+var postleitzahlen = require('./postleitzahlen.js')
 var app = express();
 
 app.use(express.bodyParser());
