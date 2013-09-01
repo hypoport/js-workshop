@@ -5,6 +5,13 @@
   <title>36 jQuery Utils</title>
   <link rel="stylesheet" href="css/bootstrap.min.css"/>
   <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+  <style type="text/css">
+    body * {
+      font-size: 20pt;
+      font-weight: bold;
+      color: black;
+    }
+  </style>
 </head>
 <body>
 
@@ -15,7 +22,7 @@
 <div id="farbBalken"></div>
 
 <script type="text/javascript">
-  var farben = ['red', 'green', 'blue', 'silver', 'black', 'yellow']
+  var farben = ['red', 'green', 'blue', 'indigo', 'silver', 'yellow']
   $(farben).each(function (index, farbe) {
     var balken = $("<div>");
     balken.addClass('balken');
