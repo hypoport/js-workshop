@@ -1,5 +1,9 @@
 {
   "description": "JS WS Http Server",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hypoport/js-workshop"
+  },
   "dependencies": {
     "express": "3.3.x"
   }
