@@ -1,4 +1,5 @@
 function schwierigeBerechnung() {
+  "use strict";
 
   var now = new Date().getTime();
 
@@ -7,5 +8,4 @@ function schwierigeBerechnung() {
     // idle
   }
   console.log("fertig");
-
 }
