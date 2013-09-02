@@ -13,11 +13,6 @@
   <h1 class="modal-header">Einfache Animationen</h1>
 </div>
 
-
-<h1>
-  <!-- //todo: toggle -->
-</h1>
-
 <div>
   <span class="col-lg-1"></span>
   <button id="btnShow" class="btn btn-info mousecursor">show()</button>
@@ -38,6 +33,8 @@
   </script>
 </div>
 
+<hr>
+
 <div>
   <span class="col-lg-1"></span>
   <button id="btnFadeIn" class="btn btn-info mousecursor">fade()</button>
@@ -55,6 +52,25 @@
   <span>
     Die Funktionen <i>fadeIn() / fadeOut()</i> blenden Elemente ein/aus.
     Dabei wird das Layout neu berechnet, weil die CSS-Eigenschaft 'display:none' verwendet wird.
+  </span>
+</div>
+
+<hr>
+
+<div>
+  <span class="col-lg-1"></span>
+  <button id="btnToggle" class="btn btn-info mousecursor">toggle()</button>
+  <span class="col-lg-1"></span>
+  <img id="img_3" src="img/hypoport_logo.png" alt="logo">
+  <script type="text/javascript">
+    $("#btnToggle").click(function(event){
+      $("#img_3").toggle('slow');
+    });
+  </script>
+  <span>
+    Die Funktionen <i>toggle()</i> blendet Elemente im Wechsel ein und aus.
+    Dabei wird das Layout neu berechnet, weil die CSS-Eigenschaft 'display:none' verwendet wird.
+    Über Parameter kann mein eine Animation hinzufügen.
   </span>
 </div>
 
