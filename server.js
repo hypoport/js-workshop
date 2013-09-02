@@ -31,4 +31,18 @@ app.put('/exist-user', function (req, res) {
     res.send(200);
   }
 });
+
+app.put('/postleitzahl', function (req, res) {
+  var plz = req.body.postleitzahl || "";
+  if (postleitzahlen[plz]) {
+    var result = {
+      postleitzahl: plz,
+      ortsteil: postleitzahlen[plz]
+    };
+    res.send(200, JSON.stringify(result));
+  } else {
+    res.send(200);
+  }
+});
+
 console.log('Started server at port 8080');
