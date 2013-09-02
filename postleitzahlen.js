@@ -321,6 +321,17 @@ var postleitzahlen = {
   "14199": "Wilmersdorf"
 };
 
+var ortsteile = {};
+for (var plz in postleitzahlen) {
+  var ortsteil = postleitzahlen[plz];
+  if (ortsteile[ortsteil]) {
+    ortsteile[ortsteil].push(plz);
+  } else {
+    ortsteile[ortsteil] = [plz];
+  }
+}
+
 module.exports = {
-  postleitzahlen: postleitzahlen
+  postleitzahlen: postleitzahlen,
+  ortsteile: ortsteile
 };
