@@ -1,0 +1,11 @@
+.ortsteil {
+  position:  absolute;
+}
+
+.aktiv {
+  display: block;
+}
+
+.inaktiv {
+  display: none;
+}

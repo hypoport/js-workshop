@@ -3,11 +3,12 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="css/berlin.css"/>
   <title>55 Meisteraufgabe</title>
 </head>
 <body>
 
-<h1>Postleitzahlen-Service</h1>
+<h1 class="page-header">Postleitzahlen-Service</h1>
 
 <!--
  Es gibt zwei Services (je POST & GET kompatibel):
@@ -15,25 +16,39 @@
  http://localhost:8080/ortsteil?q=Mitte
 -->
 
-<div class="well col-lg-5">
-
-  <form >
-    <div class="col-lg-4">
-      <label for="plz">Postleitzahl:</label>
-      <input id="plz" class="form-control" type="text" maxlength="5" name="plz"/>
-    </div>
-    <div class="col-lg-8">
-      <label for="ortsteil">Ortsteil:</label>
-      <input id="ortsteil" class="form-control" type="text" maxlength="5" name="plz"/>
-    </div>
-  </form>
-    
+<div class="container">
+  <div class="well col-lg-5">
+    <form>
+      <div class="col-lg-4">
+        <label for="plz">Postleitzahl:</label>
+        <input id="plz" class="form-control" type="text" maxlength="5" name="plz"/>
+      </div>
+      <div class="col-lg-8">
+        <label for="ortsteil">Ortsteil:</label>
+        <input id="ortsteil" class="form-control" type="text" maxlength="5" name="plz"/>
+      </div>
+    </form>
+  </div>
 </div>
 
-<div class="text-center">
-  <img src="berlin_plz.png" alt="berlin" height="577" width="701"/>
+<div class="container">
+  <!-- Hinweis: durch geschicktes Ein/Ausblenden der Bilder können Stadtteile hervorgehoben werden. -->
+  <div>
+    <img class="ortsteil aktiv alles" src="img/berlin.png" alt="berlin" height="577" width="701"/>
+    <img class="ortsteil inaktiv charlottenburg" src="img/berlin_charlottenburg.png" alt="berlin" height="577" width="701"/>
+    <img class="ortsteil inaktiv friedrichshain" src="img/berlin_friedrichshain.png" alt="berlin" height="577" width="701"/>
+    <img class="ortsteil inaktiv koepenick" src="img/berlin_koepenick.png" alt="berlin" height="577" width="701"/>
+    <img class="ortsteil inaktiv lichtenberg" src="img/berlin_lichtenberg.png" alt="berlin" height="577" width="701"/>
+    <img class="ortsteil inaktiv marzan" src="img/berlin_marzan.png" alt="berlin" height="577" width="701"/>
+    <img class="ortsteil inaktiv mitte" src="/img/berlin_mitte.png" alt="berlin" height="577" width="701"/>
+    <img class="ortsteil inaktiv neukoeln" src="/img/berlin_neu_koeln.png" alt="berlin" height="577" width="701"/>
+    <img class="ortsteil inaktiv pankow" src="/img/berlin_pankow.png" alt="berlin" height="577" width="701"/>
+    <img class="ortsteil inaktiv reinickendorf" src="/img/berlin_reinickendorf.png" alt="berlin" height="577" width="701"/>
+    <img class="ortsteil inaktiv schoeneberg" src="/img/berlin_schoeneberg.png" alt="berlin" height="577" width="701"/>
+    <img class="ortsteil inaktiv spandau" src="/img/berlin_spandau.png" alt="berlin" height="577" width="701"/>
+    <img class="ortsteil inaktiv steglitz" src="/img/berlin_steglitz.png" alt="berlin" height="577" width="701"/>
+  </div>
 </div>
-
 
 </body>
 </html>
