@@ -1,8 +1,8 @@
-# Javascript workshop
+# Javascript Workshop
 
 ## Agenda
 
-### 09:00 Uhr
+### Begrüßung
 
    * Begrüßung/Einführung/Roadmap
       * Kennenlernen
@@ -13,12 +13,9 @@
          4. Vorstellen der Lösung
       * Erkunden der Test-Rechner
 
-### 09:30 Uhr
+### Chapter 1 - Basics
 
-   * Alle Beispiele und Übungen sind als Projekte in IntelliJ Idea vorbereitet 
-   (vlt mit Unit-Tests, ob die Aufgabe geschaft ist oder nicht?)
-
-##### Chapter 1 - Basics
+   * Anmerkung: Alle Beispiele und Übungen sind als Projekte in IntelliJ IDEA vorbereitet
 
    * Control Structures
       * Die Basics: Variablen, Objekte, Statements, Loops, Functions
@@ -35,8 +32,11 @@
       * SelfHTML gut oder nicht?
       * w3cschool etc
       * Mozilla Developer Network (MDN)
+      * EcmaScript Spec
+         Javascript 1.5, Nov. 2000, ECMA-262 3rd edition, Browser: FF 1.0+, IE 5.5+, Opera 6.0+, Chrome 1.0+
+         http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf
 
-##### Chapter 2 - Advanced
+### Chapter 2 - Advanced
 
    * Alle Beispiele und Übungen sind als Projekte in IntelliJ Idea vorbereitet
    (vlt mit Unit-Tests, ob die Aufgabe geschaft ist oder nicht?)
@@ -52,11 +52,9 @@
       * Sprache Javascript/Ecmascript 
       * Browser-Divergenz, Motivation für jQuery
 
-### 12-13 Mittag
+### Chapter 3 - jQuery
 
-### 13:15 Uhr
-
-   * Alle Beispiele und Übungen mit den Firefox Addon Firebug (wirklich alle?)
+   * Optional: Alle Beispiele und Übungen mit den Firefox-Dev-Tools
 
    * jQuery Überblick (10 min)
       * Homepage zeigen, Hilfe zu Selbsthilfe             
@@ -74,16 +72,13 @@
       * z.B. each(), timer(), map(), grep(), usw.
       * Custom Callbacks
 
-### 14:30 Uhr
+### Chapter 4 - jQuery UI
 
-   * Alle Beispiele und Übungen mit den Firefox-Dev-Tools (wirklich alle?)
-   * Ergänzend werden die Developer-Tools des Internet Explorers gezeigt
+   * Optional: Alle Beispiele und Übungen mit den Firefox-Dev-Tools
 
-##### Einleitung
+##### Theorie
 
-   * Wiederholung: Überblick jQuery (welche Thema)
-
-##### Zusammanhang
+   * Wiederholung: Überblick jQuery
    * Jquery -> Plugins
    * Jquery -> JqueryUI -> UI-Plugins
 
@@ -99,14 +94,12 @@
       * MB Menu (Popup)
       * Hover
 
-##### TODO (wir)
-   * Wie sollen die Aufgaben geschnitten werden?
-   * Können wir die Plugins parallel von Teams erarbeiten lassen?
-   
+### Chapter 5 - jQuery Mobile
 
-### 15:45 Uhr
+   * Demo: "Pregnancy Angel"
+   * Übungen
 
-   * Alle Beispiele und Übungen mit den Chrome-Dev-Tools (wirklich alle?)
+### Chapter 6 - AJAX
 
    * "Vanilla" XMLHttpRequest                              (5 min)
       * d.h. ohne Hilfsmittel, nur mit Javascript Board-Mitteln
@@ -116,5 +109,3 @@
       * XML
    * Meister-Aufgabe (wahrscheinlich in IDEA?)
       * Eine individuell zu lösende Aufgabe, die alle Themen vereint
-
-

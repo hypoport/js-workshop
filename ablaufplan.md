@@ -1,6 +1,6 @@
-# Javascript workshop
+# Ablaufplan Javascript Workshop
 
-## Agenda
+## Tag 1
 
 ### 09:00 Uhr
 
@@ -44,26 +44,40 @@
 
 ### 13:15 Uhr
 
+##### Chapter 3 - DOM & jQuery
+
   * Einführung, siehe [chapter_3/31_einführung.md]
+  * Vanilla DOM
+  * jQuery DOM
+  * Aufgaben aus Chapter 3
 
--- 10 min später --
+  -- PAUSE --
+
+  * Spiel: Ich konstruiere meinen DOM
+
+  --- PAUSE --
 
   * Aufgaben aus Chapter 3
 
--- Vanilla DOM --
+## Tag 2
 
--- Pause --
+### 09:00 Uhr
 
-  * Aufgaben aus Chapter 3
-  * Aufgaben aus Chapter 4
+##### Chapter 4 - jQuery UI
 
   * Einführung, siehe [chapter_3/41_einfuehrung.md]
+  * Übungen
 
+##### Chapter 5 - jQuery Mobile
 
-### 15:45 Uhr
+  * Demo: "Pregnancy Angel"
+  * Übung
+
+### 12-13 Mittag
+
+##### Chapter 6 - AJAX
 
   * Einführung, siehe [chapter_5/51_einführung.md]
-
   * Aufgaben aus Chapter_5
 
   * Meister-Aufgabe
