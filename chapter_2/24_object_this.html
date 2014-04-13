@@ -16,7 +16,7 @@
         this.print = function () {
             console.log("Person: " + this.name + " alter: " + this.alter);
         }
-    }
+    };
 
     var andi = new Person("andi", 14);
     andi.print();
@@ -35,8 +35,31 @@
     console.log(window.newProperty);
 </script>
 
+<script type="text/javascript">
 
-// Aufgabe: Schreibe zwei Funktion, die jeweils ein Auto mit marke und ps zurückgeben: Einmal mit einer Konstruktor Funktion und einmal mit einem Object Literal erstellt.
+    var ZeitMaschine = function () {
+        this.alter = this.alter * 10;
+    };
+
+    ZeitMaschine.apply(martin);
+    martin.print();
+</script>
+
+<script>
+
+    // Aufgabe:
+    // Es soll ein MausHandler aufgerufen werden.
+    // Der MausHandler erwartet, dass er unter 'this' ein Element erreicht, auf dem der Event gefeuert wurde.
+    // Dieses Element besitzt minimal eine Property 'elementName' (String).
+    // Außerdem wird dem MausHandler ein 'event' Objekt übergeben, welches eine Property 'timestamp' besitzt (=new Date())
+    // Der MausHandler soll so aufgerufen werden, dass beide Erwartungen erfüllt werden.
+
+    var MausHandler = function(event) {
+        console.log("MausHandler >> this.elementName = " + this.elementName);
+        console.log("MausHandler >> event.timestamp = " + event.timestamp);
+    };
+
+</script>
 
 </body>
 </html>

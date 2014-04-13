@@ -43,15 +43,20 @@
 
 <script type="text/javascript">
 
-    // Aufgabe: Es gibt ein Input Element: Gib gar nicht aus, wenn valid false ist. Falls valid true ist, dann gib das firstElement oder secondElement
-    // vom innerElement aus, je nachdem ob logFirstElement true ist.
+  // Aufgabe:
+  // Prüfe nacheinander die Objekte inputExample1 und inputExample2.
+  // Verwende folgende Logik für die Prüfung:
+  //   * Gib gar nicht aus, wenn 'valid' false ist.
+  //   * Falls 'valid' true ist,
+  //      * dann gib das 'firstElement' oder 'secondElement' vom 'innerElement' aus
+  //      * je nachdem ob 'logFirstElement' true ist.
 
-    // Bsp 1: Hier passiert gar nichts.
-    var inputExample1 = {valid: false}
 
-    // Bsp 2: Hier wird "Hallo" ausgegeben
-    var inputExample2 = {valid: true, innerElement: {logFirstElement: true, firstElement: "Hallo", secondElement: "Welt"}  }
+  // Bsp 1: Hier passiert gar nichts.
+    var inputExample1 = {valid: false};
 
+  // Bsp 2: Hier wird "Hallo" ausgegeben
+  var inputExample2 = {valid: true, innerElement: {logFirstElement: true, firstElement: "Hallo", secondElement: "Welt"}  }
 
 </script>
 

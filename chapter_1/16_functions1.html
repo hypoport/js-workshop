@@ -13,7 +13,7 @@
     var foo = function (arg1, arg2) {
         console.log('arg1: ' + arg1);
         console.log('arg2: ' + arg2);
-    }
+    };
 
     foo("Hallo", "Welt");
     foo("Hallo");
@@ -30,11 +30,11 @@
 
     var myFunction = function (aCallbackFunction) {
         aCallbackFunction();
-    }
+    };
 
     var callback = function () {
         console.log('Ich bin eine Callback Function');
-    }
+    };
 
     myFunction(callback);
 
@@ -42,8 +42,11 @@
 
 <script type="text/javascript">
 
-    // Aufgabe: Schreibe eine Funktion, die eine Callback Funktion bekommt. Rufe diese Callback Funktion zweimal auf und gib jeweils das Ergebnis
-    // auf der Konsole aus
+    // Aufgabe:
+    // Schreibe eine Funktion 'mausSimulator', die eine Callback Funktion als Parameter besitzt.
+    // Der Simulator soll zwei Aufrufe der Callback Funktion durchführen.
+    // Um die Aufgabe abzuschließen, übergibt der Simulator-Funktion eine Callbackfunktion,
+    // die eine Log-Ausgabe auf der Console macht.
 
 </script>
 
