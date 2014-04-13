@@ -65,7 +65,7 @@
 
 ##### Chapter 4 - jQuery UI
 
-  * Einführung, siehe [chapter_3/41_einfuehrung.md]
+  * Einführung, siehe [chapter_4/41_einfuehrung.md]
   * Übungen
 
 ##### Chapter 5 - jQuery Mobile
@@ -77,7 +77,7 @@
 
 ##### Chapter 6 - AJAX
 
-  * Einführung, siehe [chapter_5/51_einführung.md]
+  * Einführung, siehe [chapter_6/61_einführung.md]
   * Aufgaben aus Chapter_5
 
   * Meister-Aufgabe
