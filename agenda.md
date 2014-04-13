@@ -97,7 +97,11 @@
 ### Chapter 5 - jQuery Mobile
 
    * Demo: "Pregnancy Angel"
+   * Genereller Aufbau
+   * Pages und Navigation
    * Übungen
+      * ListView Widget
+      * Option-Dialog Widget
 
 ### Chapter 6 - AJAX
 

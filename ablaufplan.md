@@ -72,7 +72,7 @@
 
   * Einführung, siehe [chapter_5/51_einfuehrung.md]
   * Demo: "Pregnancy Angel"
-  * Übung
+  * Übungen
 
 ### 12-13 Mittag
 
