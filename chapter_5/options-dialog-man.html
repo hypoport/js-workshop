@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pregnancy Angel - Options</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="jquerymobile/jquery.mobile-1.3.2.min.css" />
+  <script src="js/jquery-1.10.2.js"></script>
+  <script src="jquerymobile/jquery.mobile-1.3.2.min.js"></script>
+  <style>
+    html, body { padding: 0; margin: 0; }
+    html, .ui-mobile, .ui-mobile body {
+      height: 415px;
+    }
+    .ui-mobile, .ui-mobile .ui-page {
+      min-height: 415px;
+    }
+    .ui-content{
+      padding:10px 15px 0px 15px;
+    }
+    a {
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+<div data-role="page" data-corners="false" data-close-btn="none">
+
+  <div data-role="header">
+    <h1>Dein Profil</h1>
+  </div>
+
+  <div data-role="content">
+    <!--<h1>Dein Profil</h1>-->
+    <p style="text-align: center;">
+      <a href="index.html">
+        <img src="img/frau-128.png" alt="Frau">
+      </a>
+      &nbsp;
+      &nbsp;
+      <a href="index-man.html">
+        <img src="img/mann-128.png" alt="Mann">
+      </a>
+    </p>
+    <div>
+      <label for="slider-flip-m">Das erste Kind?</label>
+      <select name="slider-flip-m" id="slider-flip-m" data-role="slider" data-mini="true">
+        <option value="off">Nein</option>
+        <option value="on" selected="">Ja</option>
+      </select>
+    </div>
+    <div>
+      <label for="date">Voraussichtlicher Geburtstermin</label>
+      <input type="date" name="date" id="date" value="2014-05-23">
+    </div>
+    <p>&nbsp;</p>
+    <a href="index.html" data-role="button" data-rel="back" data-theme="b">Ok</a>
+  </div>
+</div>
+
+</body>
+</html>
+
+

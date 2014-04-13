@@ -1,0 +1,58 @@
+#diary .ui-icon {
+  background-image: url('img/icon-buch1.png');
+  background-size: 22px 22px;
+  width: 22px;
+  height: 22px;
+}
+
+#wishes .ui-icon {
+  background-image: url('img/icon-wunsch.png');
+  background-size: 22px 22px;
+  width: 22px;
+  height: 22px;
+}
+
+#products .ui-icon {
+  background-image: url('img/icon-products.png');
+  background-size: 22px 22px;
+  width: 22px;
+  height: 22px;
+}
+
+#aroundMe .ui-icon {
+  background-image: url('img/icon-locate.png');
+  background-size: 22px 22px;
+  width: 22px;
+  height: 22px;
+}
+
+#overview .ui-icon {
+  background-image: url('img/icon-infos.png');
+  background-size: 22px 22px;
+  width: 22px;
+  height: 22px;
+}
+
+#education .ui-icon {
+  background-image: url('img/icon-buch2.png');
+  background-size: 22px 22px;
+  width: 22px;
+  height: 22px;
+}
+
+.img-product {
+  width: 30%;
+}
+
+.container-float {
+  float: right;
+  padding-top: 12px;
+}
+
+#list-diary .ui-listview .ui-li-thumb {
+  position: absolute;
+  left: 1px;
+  top: 0;
+  max-height: 128px;
+  max-width: 128px;
+}

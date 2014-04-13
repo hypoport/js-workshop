@@ -70,6 +70,7 @@
 
 ##### Chapter 5 - jQuery Mobile
 
+  * Einführung, siehe [chapter_5/51_einfuehrung.md]
   * Demo: "Pregnancy Angel"
   * Übung
 
